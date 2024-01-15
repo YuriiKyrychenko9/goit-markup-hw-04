@@ -38,7 +38,7 @@ img {
 .page-header {
   border-bottom: 1px solid #e7e9fc;
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16);
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .page-header .container {
@@ -205,7 +205,7 @@ img {
   line-height: 1.5; /* 150% */
   letter-spacing: 0.64px;
   cursor: pointer;
-  font-family: Roboto, sans-serif; /* Добавил, как будто у меня нет нормалайз*/
+  font-family: Roboto, sans-serif;
   padding: 16px 32px;
   border-radius: 4px;
   min-width: 169px;
@@ -281,34 +281,6 @@ img {
   border-radius: 4px;
   margin-bottom: 8px;
 }
-
-/* .advantages-item::before {
-  display: block;
-  content: '';
-  height: 112px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: var(--sub-background-color);
-  margin-bottom: 8px;
-  background-size: 64px 64px;
-}
-
-.icon-antena::before {
-  background-image: url(../images/antenna.svg);
-}
-
-.icon-clock::before {
-  background-image: url(../images/clock.svg);
-}
-
-.icon-diagram::before {
-  background-image: url(../images/diagram.svg);
-}
-
-.icon-astro::before {
-  background-image: url(../images/astronaut.svg);
-} */
 
 /* =======Third Section OUR TEAM========= */
 
