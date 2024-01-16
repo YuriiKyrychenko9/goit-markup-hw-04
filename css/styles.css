@@ -91,7 +91,7 @@ img {
   gap: 40px;
 }
 .menu-link {
-  color: var(--pressed-state-color);
+  color: var(--title-text-color);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5; /* 150% */
@@ -100,6 +100,10 @@ img {
   display: block;
   position: relative;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.current {
+  color: var(--pressed-state-color);
 }
 
 .current::after {
@@ -280,6 +284,8 @@ img {
   background-color: var(--sub-background-color);
   border-radius: 4px;
   margin-bottom: 8px;
+  border-radius: 4px;
+  border: 1px solid var(--LIGHT-SLATE, #8e8f99);
 }
 
 /* =======Third Section OUR TEAM========= */
@@ -371,7 +377,7 @@ img {
   overflow: hidden;
 }
 
-.portfolio-cover:hover .cover-text {
+.portfolio-item:hover .cover-text {
   transform: translateY(0%);
 }
 
